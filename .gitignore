@@ -1,0 +1,12 @@
+# Node modules
+node_modules
+
+# Koji builds
+#manifest.webmanifest
+
+# Parcel Builds
+dist
+.cache
+
+# tmp
+.tmp

@@ -1,0 +1,28 @@
+{
+  "images": {
+    "backgroundImage": "https://avatars3.githubusercontent.com/u/31210154?s=400&v=4",
+    "ballImage": "https://i.imgur.com/sujKkKx.png"
+  },
+  "@@editor": [
+    {
+      "key": "images",
+      "name": "Images",
+      "icon": "🖼️",
+      "source": "images.json",
+      "fields": [
+        {
+          "key": "backgroundImage",
+          "name": "Background Image",
+          "description": "Background image",
+          "type": "image"
+        },
+        {
+          "key": "ballImage",
+          "name": "Ball Image",
+          "description": "Ball image",
+          "type": "image"
+        }
+      ]
+    }
+  ]
+}

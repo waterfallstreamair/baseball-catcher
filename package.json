@@ -1,0 +1,25 @@
+{
+  "name": "app-game-canvas",
+  "version": "1.0.0",
+  "description": "baseball catcher",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "koji-tools watch &",
+    "start": "npm run dev",
+    "dev": "npx parcel index.html",
+    "build": "npx parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "audio-play": "^2.2.1",
+    "game-asset-loader": "0.0.3",
+    "koji-tools": "^0.5.1",
+    "parcel-bundler": "^1.12.3",
+    "prevent-parent": "0.0.2",
+    "unlock-audio-context": "^0.2.1",
+    "webfontloader": "^1.6.28"
+  }
+}

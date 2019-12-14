@@ -1,0 +1,84 @@
+{
+    "settings": {
+      "name": "Baseball Catcher",
+      "startText": "Start",
+      "player1WinText": "Player 1 Wins!",
+      "player2WinText": "Player 2 Wins!",
+      "instructionsMobile": "Tap to launch ball. Swipe up or down to move [ ⇡ ⇣ ]",
+      "instructionsDesktop": "Player 1: Spacebar to launch. [ ⇡ ⇣ ] to move. Player 2: [ W S ] to move.",
+      "gameTopBar": true,
+      "playerWidth": 10,
+      "playerHeight": 60,
+      "ballSize": 20,
+      "ballSpeed": 20,
+      "difficulty": 5,
+      "winScore": 5,
+      "fontFamily": "Bungee Inline"
+    },
+    "@@editor": [
+      {
+        "key": "settings",
+        "name": "Game settings",
+        "icon": "🎮",
+        "source": "settings.json",
+        "fields": [
+          {
+            "key": "name",
+            "name": "App name"
+          },
+          {
+            "key": "startText",
+            "name": "Start Button Text"
+          },
+          {
+            "key": "player1WinText",
+            "name": "Text to show when player 1 wins"
+          },
+          {
+            "key": "player2WinText",
+            "name": "Text to show when player 2 wins"
+          },
+          {
+            "key": "instructionsMobile",
+            "name": "How to play the game on mobile"
+          },
+          {
+            "key": "instructionsDesktop",
+            "name": "How to play the game on desktop"
+          },
+          {
+            "key": "gameTopBar",
+            "name": "If game should have a top bar or not"
+          },
+          {
+            "key": "playerWidth",
+            "name": "Width of players"
+          },
+          {
+            "key": "playerHeight",
+            "name": "Height of players"
+          },
+          {
+            "key": "ballSize",
+            "name": "Ball size"
+          },
+          {
+            "key": "ballSpeed",
+            "name": "Ball speed"
+          },
+          {
+            "key": "difficulty",
+            "name": "Difficulty level"
+          },
+          {
+            "key": "winScore",
+            "name": "Score need for player to win game"
+          },
+          {
+            "key": "fontFamily",
+            "name": "Font to use for text in the game"
+          }
+        ]
+      }
+    ]
+  }

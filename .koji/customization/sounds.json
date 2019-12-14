@@ -1,0 +1,35 @@
+{
+    "sounds": {
+      "backgroundMusic": "https://objects.koji-cdn.com/346c4884-64f9-4fb5-89b5-8fe031ed672c/pongsynth2.mp3",
+      "bounceSound": "https://objects.koji-cdn.com/d659a1cd-54ca-41c1-906f-3b7b5f6aeb7d/scoreSound.mp3",
+      "scoreSound": "https://objects.koji-cdn.com/d659a1cd-54ca-41c1-906f-3b7b5f6aeb7d/winSound.mp3"
+    },
+    "@@editor": [
+      {
+        "key": "sounds",
+        "name": "Sounds",
+        "icon": "🔊️",
+        "source": "sounds.json",
+        "fields": [
+          {
+            "key": "backgroundMusic",
+            "name": "Background Music",
+            "description": "Music to loop in background",
+            "type": "sound"
+          },
+          {
+            "key": "bounceSound",
+            "name": "Bounce Sound",
+            "description": "Sound to play on bounce",
+            "type": "sound"
+          },
+          {
+            "key": "scoreSound",
+            "name": "Score Sound",
+            "description": "Sound to play on score",
+            "type": "sound"
+          }
+        ]
+      }
+    ]
+  }
